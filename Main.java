@@ -5,9 +5,7 @@
  */
 import java.util.Scanner;
 
-public class Main {
-
-  public static void main(String[] args) {
+public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     String paintColor;
     int gallons;
@@ -44,6 +42,8 @@ public class Main {
     printBill(redPaintTotal, greenPaintTotal, totalCost);
     printThankYouMessage();
   }
+
+public class Main {
 
   public static double getRedPaintCost(int gallons) {
     double redPaintPrice = 21.95;
